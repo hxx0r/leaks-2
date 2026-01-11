@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">leaks</string>
+    <string name="title">Проверка пароля</string>
+    <string name="subtitle">Узнайте, не скомпрометирован ли ваш пароль</string>
+    <string name="password_hint">Введите пароль для проверки</string>
+    <string name="check_button">Проверить пароль</string>
+    <string name="security_info">Пароли нигде не сохраняются</string>
+    <string name="checking_status">Проверка...</string>
+    <string name="safe_password">Пароль безопасен</string>
+    <string name="pwned_password">Пароль скомпрометирован!</string>
+    <string name="error_message">Ошибка при проверке</string>
+    <string name="hash_label">SHA-1 хеш:</string>
+    <string name="prefix_label">Префикс:</string>
+    <string name="records_count">11+ млрд записей</string>
+    <string name="secure_check">Безопасная проверка</string>
+    <string name="fast_result">Мгновенный результат (почти)</string>
+    <string name="api_credit">HIBP API</string>
+    <string name="disclaimer">что-то тут не так..</string>
+</resources>

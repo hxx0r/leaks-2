@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@drawable/glass_card">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Заголовок приложения -->
+        <TextView
+            android:id="@+id/dialogAppName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Название приложения"
+            android:textColor="@color/text_primary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Имя пакета -->
+        <TextView
+            android:id="@+id/dialogPackageName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="com.example.app"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Статистика трафика -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"
+            android:background="@color/glass_border">
+
+            <TextView
+                android:id="@+id/dialogDataSent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📤 Отправлено: 0 B"
+                android:textColor="@color/text_primary"
+                android:textSize="14sp"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/dialogDataReceived"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📥 Получено: 0 B"
+                android:textColor="@color/text_primary"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <!-- Уровень риска -->
+        <TextView
+            android:id="@+id/dialogRiskLevel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚡ Уровень риска: Низкий"
+            android:textColor="@color/safe_color"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"
+            android:background="@color/glass_border" />
+
+        <!-- Трекеры -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎯 Обнаруженные трекеры:"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/dialogTrackersList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Трекеры не обнаружены"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"
+            android:background="@color/glass_border" />
+
+        <!-- Разрешения -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔑 Запрашиваемые разрешения:"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/dialogPermissionsList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Разрешения не указаны"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"
+            android:lineSpacingExtra="4dp"
+            android:padding="12dp"
+            android:background="@color/glass_border" />
+
+    </LinearLayout>
+
+</ScrollView>
